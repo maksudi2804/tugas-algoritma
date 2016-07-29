@@ -1,0 +1,34 @@
+#include <iostream> //Ini adalah sebuah library c++
+#include <string> //Begitupun ini library c++ dengan type data string
+
+using namespace std;
+
+struct student //structnya adalah mahasiswa atau student
+{
+ 	  string name; //output akan menampilkan nama type data variabel 
+	   int grade;  //dan grade type data integer atau hanya angka saja
+};
+int main()
+{
+ 	student maksudi1; 
+ 	student maksudi2;
+ 	
+ 	cout << "Please enter student's name: "; //Ini adalah untuk menampilkan output "cout"
+ 	cin >> maksudi1.name; //menampilkan nama maksudi1
+ 	
+ 	cout << "Please enter student's grade: "; //Output grade mahasiswa bernama maksudi1
+ 	cin >> maksudi1.grade;
+ 	
+	 	cout << "Please enter student's name: ";
+ 	cin >> maksudi2.name;
+ 	
+ 	cout << "Please enter student's grade: "; //Output grade mahasiswa bernama maksudi2
+ 	cin >> maksudi2.grade; 	
+ 	
+ 	cout << "Name" << "          " << "Grade" << endl; //----> Lihat Note
+ 	
+ 	cout << maksudi1.name << "       " << maksudi1.grade << endl; //Lihat Note---->
+ 	cout << maksudi2.name << "       " << maksudi2.grade << endl;
+ 	
+ 	system("pause"); //System akan berhenti setelah hasil outputan telah terisi...
+}	   
