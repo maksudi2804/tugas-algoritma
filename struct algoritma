@@ -10,14 +10,14 @@ struct student //structnya adalah mahasiswa atau student
 };
 int main()
 {
- 	student maksudi1; 
+ 	student maksudi11; 
  	student maksudi2;
  	
  	cout << "Please enter student's name: "; //Ini adalah untuk menampilkan output "cout"
- 	cin >> maksudi1.name; //menampilkan nama maksudi1
+ 	cin >> maksudi11.name; //menampilkan nama maksudi1
  	
  	cout << "Please enter student's grade: "; //Output grade mahasiswa bernama maksudi1
- 	cin >> maksudi1.grade;
+ 	cin >> maksudi11.grade;
  	
 	 	cout << "Please enter student's name: ";
  	cin >> maksudi2.name;
@@ -27,7 +27,7 @@ int main()
  	
  	cout << "Name" << "          " << "Grade" << endl; //----> Lihat Note
  	
- 	cout << maksudi1.name << "       " << maksudi1.grade << endl; //Lihat Note---->
+ 	cout << maksudi11.name << "       " << maksudi11.grade << endl; //Lihat Note---->
  	cout << maksudi2.name << "       " << maksudi2.grade << endl;
  	
  	system("pause"); //System akan berhenti setelah hasil outputan telah terisi...
