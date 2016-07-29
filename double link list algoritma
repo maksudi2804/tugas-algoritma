@@ -63,7 +63,7 @@ void hapus()
             {
             del=head;
             simpan = head->data;
-            cout<<"\n"<<simpan<<" telah dihapus"<<endl;
+            cout<<"\n"<<simpan<<" Terima Kasih, Telah dihapus"<<endl;
             head = head->next;
             head->prev = NULL;
             delete del;
