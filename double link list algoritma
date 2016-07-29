@@ -71,13 +71,13 @@ void hapus()
             else
             {
                   simpan = head->data;
-                  cout<<"\n"<<simpan<<" telah dihapus"<<endl;
+                  cout<<"\n"<<simpan<<" Terima Kasih, telah dihapus"<<endl;
                   head = NULL;
             }
 
       }
       else
-            cout<<"\nLinked List kosong penghapusan tidak dapat dilakukan"<<endl; //output yang akan tampil jika penghapusan node tidak bisa
+            cout<<"\nDouble Linked List kosong penghapusan tidak dapat dilakukan"<<endl; //output yang akan tampil jika penghapusan node tidak bisa
 }
 
 void cetak()
