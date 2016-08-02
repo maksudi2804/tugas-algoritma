@@ -16,7 +16,7 @@ int main()
  	cout << "Masukan Nama Mahasiswa: "; //Ini adalah untuk menampilkan output "cout"
  	cin >> maksudi11.name; //menampilkan nama maksudi1
  	
- 	cout << "Please enter student's grade: "; //Output grade mahasiswa bernama maksudi1
+ 	cout << "Masukan Tingkatan Mahasiswa: "; //Output grade mahasiswa bernama maksudi1
  	cin >> maksudi11.grade;
  	
 	 	cout << "Please enter student's name: ";
