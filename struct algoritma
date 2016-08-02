@@ -19,13 +19,13 @@ int main()
  	cout << "Masukan Tingkatan Mahasiswa: "; //Output grade mahasiswa bernama maksudi1
  	cin >> maksudi11.grade;
  	
-	 	cout << "Please enter student's name: ";
+	 	cout << "Masukan Nama Mahasiswa: ";
  	cin >> maksudi22.name;
  	
- 	cout << "Please enter student's grade: "; //Output grade mahasiswa bernama maksudi2
+ 	cout << "Masukan Tingkatan Mahasiswa: "; //Output grade mahasiswa bernama maksudi2
  	cin >> maksudi22.grade; 	
  	
- 	cout << "Name" << "          " << "Grade" << endl; //----> Lihat Note
+ 	cout << "Nama" << "          " << "Tingkatan" << endl; //----> Lihat Note
  	
  	cout << maksudi11.name << "       " << maksudi11.grade << endl; //Lihat Note---->
  	cout << maksudi22.name << "       " << maksudi22.grade << endl;
