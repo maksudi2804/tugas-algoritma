@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include <conio.h>
+//#include <conio.h>
 void merge(int *,int, int , int );
 void mergesort(int *a, int low, int high)
 {
