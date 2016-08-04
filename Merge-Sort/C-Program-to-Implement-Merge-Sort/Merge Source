@@ -55,7 +55,7 @@ void merge(int *a, int low, int high, int mid)
 int main()
 {
     int a[20], i, b[20];
-    cout<<"enter  the elements\n";
+    cout<<"Enter Elements\n";
     for (i = 0; i < 5; i++)
     {
         cin>>a[i];
