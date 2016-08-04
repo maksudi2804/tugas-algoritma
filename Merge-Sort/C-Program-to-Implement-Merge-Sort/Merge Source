@@ -16,7 +16,7 @@ void mergesort(int *a, int low, int high)
 }
 void merge(int *a, int low, int high, int mid)
 {
-    int i, j, k, c[50];
+    int i, j, k, c[60];
     i = low;
     k = low;
     j = mid + 1;
