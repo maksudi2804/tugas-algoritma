@@ -23,7 +23,7 @@ int awal=0, akhir=11, tengah;
    {cout<<" Data ditemukan, Ke- "<<tengah+1<<endl; //Output di dalam scope
    }
    else {
-    cout<<"Data Tidak Ditemukan... "<<endl;
+    cout<<"Target Tidak Ditemukan... "<<endl;
    }
 getch();
 
