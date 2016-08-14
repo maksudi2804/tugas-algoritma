@@ -20,7 +20,7 @@ int awal=0, akhir=10, tengah;
   }
    }
    if (tar == Ar[tengah])
-   {cout<<" Data ditemukan, Ke- "<<tengah+1<<endl;
+   {cout<<" Data ditemukan, Ke- "<<tengah+1<<endl; //Output di dalam scope
    }
    else {
     cout<<"Data Tidak Ditemukan... "<<endl;
