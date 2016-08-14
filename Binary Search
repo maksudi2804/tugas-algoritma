@@ -1,6 +1,7 @@
 #include <iostream> //Library
 #include <conio.h> //Library
 using namespace std;
+
 int main(){
  const int Ar[11] = {1,2,12,4,5,6,7,8,9,10,11}; // untuk proses ascending array
  int tar;
@@ -20,7 +21,7 @@ int awal=0, akhir=11, tengah;
   }
    }
    if (tar == Ar[tengah])
-   {cout<<" Data ditemukan, Ke- "<<tengah+1<<endl; //Output di dalam scope
+   {cout<<" Data ditemukan, Urutan Ke- "<<tengah+1<<endl; //Output di dalam scope
    }
    else {
     cout<<"Target Tidak Ditemukan... "<<endl;
