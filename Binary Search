@@ -17,7 +17,7 @@ int awal=0, akhir=11, tengah;
      { awal = tengah + 1; }
   else if (tar < Ar[tengah])  // descending ubah tanda < menjadi >
   {akhir= tengah - 1;}
-  else {awal = akhir +1;
+  else {awal = akhir +1; //Jika array menunjukan nilai akhir maka di tambah satu
   }
    }
    if (tar == Ar[tengah])
