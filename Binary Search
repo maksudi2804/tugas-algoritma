@@ -24,7 +24,7 @@ int awal=0, akhir=11, tengah;
    {cout<<" Data ditemukan, Urutan Ke- "<<tengah+1<<endl; //Output di dalam scope
    }
    else {
-    cout<<"Target Tidak Ditemukan... "<<endl;
+    cout<<"Target Tidak Ditemukan... "<<endl; //Jika tidak ada array
    }
 getch();
 
