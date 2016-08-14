@@ -2,12 +2,12 @@
 #include <conio.h>
 using namespace std;
 int main(){
- const int Ar[10] = {1,2,12,4,5,6,7,8,9,10}; // untuk proses ascending array
+ const int Ar[11] = {1,2,12,4,5,6,7,8,9,10,11}; // untuk proses ascending array
  int tar;
 
 cout<<"MASUKAN DATA YANG AKAN DICARI : ";
  cin>>tar;
-int awal=0, akhir=10, tengah;
+int awal=0, akhir=11, tengah;
 
 
  while (awal <= akhir)
